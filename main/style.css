@@ -52,7 +52,7 @@ button {
     .img-mobile{
         display: inline-block;
         width: 100%;
-        height: fit-content;
+        max-height: 50vh;
     }
     br {
         display: none;
