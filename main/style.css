@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+button {
+    border-radius: 12px !important;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.dropdown-menu a:focus {
+    background-color: rgb(242, 242, 242);
+    color: #000;
+}
+
+.dropdown-menu a:active {
+    background-color: rgb(189, 181, 181);
+    color: #000;
+
+}
+
+.img-desktop {
+    height: 70vh;
+    width: 80%;
+}
+.img-mobile{
+    display: none;
+}
+.main-header {
+    font-weight: 900;
+    font-size: 4rem;
+    margin-top: 54px;
+}
+.navbar-toggler{
+    border: none!important;
+    box-shadow: none!important;
+}
+/*********Media*********/
+
+@media (max-width:992px) {
+
+    .img-desktop {
+        display: none;
+    }
+    .img-mobile{
+        display: inline-block;
+        width: 100%;
+        height: fit-content;
+    }
+    br {
+        display: none;
+    }
+
+    .main-header {
+
+        font-weight: 600;
+        font-size: 1.8rem;
+        margin-top: 0px !important;
+        padding-top: 10px !important;
+    }
+
+    .main-content {
+        text-align: center;
+    }
+}
+@media (max-width:1200px) {
+    .main-header{
+        padding-top: 0!important;
+    }
+    .img-desktop{
+        margin-top:70px!important ;
+    }
+}
