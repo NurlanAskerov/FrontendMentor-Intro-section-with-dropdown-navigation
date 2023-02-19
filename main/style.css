@@ -76,5 +76,6 @@ button {
     }
     .img-desktop{
         margin-top:70px!important ;
+        width: 100%;
     }
 }
